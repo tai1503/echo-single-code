@@ -22,17 +22,17 @@
 
 Cài đặt các thư viện cần thiết cho bài lab:
 
-     *pip3 install numpy*
+     pip3 install numpy
      
-     *pip3 install scipy*
+     pip3 install scipy
      
-     *pip3 install matplotlib*
+     pip3 install matplotlib
      
-     *pip3 install scikit-learn*
+     pip3 install scikit-learn
      
-     *sudo apt update*
+     sudo apt update
      
-     *sudo apt install python3-tk*
+     sudo apt install python3-tk
 
 Bài lab gồm các file:
 
@@ -43,27 +43,27 @@ Bài lab gồm các file:
 
 Xem nội dung file thông điệp:
 
-      *cat text.txt*
+      cat text.txt
 
 Chuyển đổi thông điệp sang dạng bit và lưu vào file *bits\_mes.txt*:
 
-      *python3 text\_to\_bits.py \>\> bits\_mes.txt*
+      python3 text\_to\_bits.py \>\> bits\_mes.txt
 
 Xem nôi dung file *bits\_mes.txt:*
 
-       *cat bits\_mes.txt*
+       cat bits\_mes.txt
 
 Thực hiên giấu tin vào file âm thanh:
 
-        *python3 echo\_encode.py input.wav bits\_mes.txt*
+        python3 echo\_encode.py input.wav bits\_mes.txt
 
 Thực hiện tách tin từ file âm thanh *output.wav*:
 
-        *python3 echo\_extract.py*
+        python3 echo\_extract.py
 
 So sánh giữa hai file âm thanh sau khi giấu tin và trước khi giấu tin:
 
-        *python3 compare.py input.wav output.wav*
+        python3 compare.py input.wav output.wav
 
 * MSE (Mean Squared Error): Là sai số bình phương trung bình giữa tín hiệu gốc và tín hiệu đã biến đổi. MSE càng nhỏ ⇒ tín hiệu càng giống gốc**.**
 
@@ -73,12 +73,12 @@ Trên terminal đầu tiên:
 
 * Kiểm tra kết quả bài lab:
 
-        *checkwork*
+        checkwork
 
 * Kết thúc bài lab:
 
-        *stoplab*
+        stoplab
 
 * Khởi động lại bài lab:
 
-        *labtainer \-r echo-single-code*
+        labtainer \-r echo-single-code
